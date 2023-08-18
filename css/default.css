@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+html{scroll-behavior: smooth;}
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{margin:0;}
+body{
+    _min-width:1920px;
+    color:#000000;
+    font-family:'Noto Sans KR', sans-serif !important;
+    letter-spacing:-1px;
+	font-size:1em;
+	font-weight:normal;
+    background:#ebebeb;
+}
+
+h1, h2, h3{font-family:'PLAY', sans-serif;}
+h4, h5, h6{font-family:'Noto Sans KR', sans-serif;}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:#373737;
+}
+
+.inner{
+    width:1780px;
+    margin:0 auto;
+}
+
+
+
+
+.cf::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+
+#container{float:none !important; width:auto !important;margin:0!important;}
+
+
+@font-face {
+    font-family: 'KHNPHD';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PLAY', sans-serif;
+	src: local("PLAY"),
+		 url('/fonts/PLAY.eot') format('embedded-opentype'),
+      	 url('/fonts/PLAY.woff') format('woff'),
+     	 url('/fonts/PLAY-REGULAR.ttf') format('truetype'),
+     	 url('/fonts/PLAY-BOLD.ttf') format('truetype'),
+     	 url('/fonts/PLAY.svg#NanumGothic') format('svg'),
+     	 url('/fonts/PLAY.woff') format('woff');
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/antic-didone');
+
+
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(/fonts/NotoSansKr/NotoSansKR-Thin.woff2) format('woff2'),
+       url(/fonts/NotoSansKr/NotoSansKR-Thin.woff) format('woff'),
+       url(/fonts/NotoSansKr/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/fonts/NotoSansKr/NotoSansKR-Light.woff2) format('woff2'),
+       url(/fonts/NotoSansKr/NotoSansKR-Light.woff) format('woff'),
+       url(/fonts/NotoSansKr/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(/fonts/NotoSansKr/NotoSansKR-Regular.woff2) format('woff2'),
+        url(/fonts/NotoSansKr/NotoSansKR-Regular.woff) format('woff'),
+        url(/fonts/NotoSansKr/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url(/fonts/NotoSansKr/NotoSansKR-Medium.woff2) format('woff2'),
+        url(/fonts/NotoSansKr/NotoSansKR-Medium.woff) format('woff'),
+        url(/fonts/NotoSansKr/NotoSansKR-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: url(/fonts/NotoSansKr/NotoSansKR-Bold.woff2) format('woff2'),
+        url(/fonts/NotoSansKr/NotoSansKR-Bold.woff) format('woff'),
+        url(/fonts/NotoSansKr/NotoSansKR-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 900;
+   src: url(/fonts/NotoSansKr/NotoSansKR-Black.woff2) format('woff2'),
+        url(/fonts/NotoSansKr/NotoSansKR-Black.woff) format('woff'),
+        url(/fonts/NotoSansKr/NotoSansKR-Black.otf) format('opentype');
+ } 
