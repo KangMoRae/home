@@ -590,6 +590,9 @@ input[type=number] {
   height: auto;
 }
 
+.n_click{position: absolute;left:50%;bottom:-50%;transform: translate(-50%,-50%);font-size:24px;}
+
+
 .banner {
   position: relative;
   height: calc(100vh - min(3.37rem, 38.7vh));

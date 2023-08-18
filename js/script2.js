@@ -104,6 +104,13 @@ document.addEventListener('DOMContentLoaded', () => {
             transformOrigin: "top",
             duration: 0.8
           }, '<')
+          .to(".n_click", {
+            scaleY: 0,
+            alpha: 0,
+            ease: "sine.in",
+            transformOrigin: "top",
+            duration: 0.8
+          }, '<')
           .to(".wonderland-full", {
             scaleY: 0,
             alpha: 0,
@@ -170,6 +177,13 @@ document.addEventListener('DOMContentLoaded', () => {
           transformOrigin: "top",
           duration: 0.5
         }, '<')
+        .to(".n_click", {
+          scaleY: 1,
+          alpha: 1,
+          ease: "sine.in",
+          transformOrigin: "top",
+          duration: 0.5
+        }, '<+0.5')
         .to(".mirror-img__left .mirror-light", {
           duration: 0.7,
           x: '-100%',
