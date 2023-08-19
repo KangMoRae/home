@@ -199,7 +199,7 @@ p {
 .banner-left {
   position: absolute;
   width: 550px;
-    bottom:80vh;
+    bottom:64vh;
     left:0;
   border: none;
   background: transparent;
@@ -212,7 +212,7 @@ p {
 .banner-left img {
   width: 100%;
 }
-
+.about_tit{position: absolute;top:0;left:30%;top:6%;font-size:100px;opacity: 0.8; font-family: "Antic Didone", serif;}
 
 
 .con01Box02{
@@ -244,7 +244,7 @@ ul{
 }
 
 .proTxt{position: absolute;top: 20%;
-    left: 54%;
+    right: 8%;
     transform: translateX(-50%);}
 
 
@@ -276,8 +276,7 @@ ul{
     .wonderland-descr{font-size:16px;line-height: 20px; padding-top:30%;max-width: none;}
     .hero-close{top: 3.8rem;font-size:12px;}
     .hero-close:hover{width:50px;height: 50px;}
-    .banner-left{width: 280px;
-    z-index: -1;bottom: 40vh;}
+    .banner-left{width: 280px;z-index: -1;bottom: 38vh;}
     .con01Box02 ul li h4{font-size:16px;}
     .con01Box02 ul li p{font-size:12px}
     .con01Box02 ul li>div ul .f_b{font-size:14px;}
@@ -297,6 +296,6 @@ ul{
     .content{background: #ffffff;height: 15vh;}
     .content p{font-size:12px;}
     .inner-header{height: 90vh;}
-    
+    .about_tit{right:0;left:auto;font-size:60px;}
     
 }
