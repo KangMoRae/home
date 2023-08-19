@@ -132,7 +132,7 @@ a{
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  cursor: none;
+  _cursor: none;
 }
 
 img,
@@ -541,6 +541,8 @@ input[type=number] {
   margin: min(1.59rem, 16vh) auto 0;
   opacity: 0.85;
   font-family: 'Noto Sans KR' !important;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 .wonderland-descr p{font-family: 'Noto Sans KR', serif !important;}
@@ -590,7 +592,9 @@ input[type=number] {
   height: auto;
 }
 
-.n_click{position: absolute;left:50%;bottom:-50%;transform: translate(-50%,-50%);font-size:24px;}
+.n_click{position: absolute;left:50%;top: 68%;transform: translate(-50%,-50%);font-size:24px;z-index: 9999;}
+.n_click a{color:#ffffff;transition: 0.4s;}
+.n_click a:hover{font-weight: bold; color:#2CA5D3;transition: 0.4s;}
 
 
 .banner {
@@ -624,7 +628,7 @@ input[type=number] {
   align-items: flex-end;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  _justify-content: space-between;
   width: 100%;
   padding: 0 0.9rem 0 0.3rem;
   z-index: 2;
@@ -1036,7 +1040,7 @@ input[type=number] {
     position: absolute;
     right: -150px;}
     .line-stroke__item{font-size:20px}
-    .wonderland-descr{font-size:16px;line-height: 20px; padding-top:30%;}
+    .wonderland-descr{font-size:16px;line-height: 20px; padding-top:30%;max-width: none;}
     .hero-close{top: 3.8rem;font-size:12px;}
     .hero-close:hover{width:50px;height: 50px;}
     .banner-left{width: 280px;
