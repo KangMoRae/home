@@ -118,6 +118,78 @@
 
 
 
+.scroll {
+  padding-top: 90px;
+  position:absolute;
+  top: 40%;
+  right: 50px;
+  pointer-events: none;
+  cursor: default;
+    z-index: 1;
+    color:#e1e1e1;
+}
+.scroll span {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.scroll span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.scroll span:nth-of-type(2) {
+  top: 50%;
+  right:16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+.scroll span:nth-of-type(3) {
+  top: 50%;
+  right:32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.text_box .visit{transition: 0.3s;}
+.text_box .visit:hover{transition: 0.3s; color:#2CA5D3;}
+
+
+
 /*동영테크원*/
 .item_img3{width:100vw;position: relative;
     height: 100vh;}

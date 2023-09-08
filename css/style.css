@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{overflow-x: hidden;}
+
+
+main {
+  position: relative;
+  margin: 0 auto;
+  min-height: 100vh;
+  column-gap: 3rem;
+    padding:50px 0;
+  _padding-block: min(20vh, 3rem);
+}
+
+
+
+.bg {
+  position: fixed;
+  top: -4rem;
+  left: -12rem;
+  z-index: -1;
+  opacity: 0;
+}
+
+.bg2 {
+  position: fixed;
+  bottom: -2rem;
+  right: -3rem;
+  z-index: -1;
+  width: 9.375rem;
+  opacity: 0;
+}
+
+main > div span {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  color: #717171;
+}
+
+main > div h1 {
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  background-color: #005baa;
+  background-image: linear-gradient(45deg, #005baa, #000000);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/*
+main > div hr {
+  display: block;
+  background: #005baa;
+  height: 0.25rem;
+  width: 6.25rem;
+  border: none;
+  margin: 1.125rem 0 1.875rem 0;
+}
+*/
+main > div p {
+  line-height: 1.6;
+    font-size:16px;
+    font-family: "Noto sans", sans-serif;
+}
+
+main a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717171;
+  font-weight: 500;
+  background: #fff;
+  border-radius: 3.125rem;
+  transition: 0.3s ease-in-out;
+}
+
+main > div > a {
+  border: 2px solid #c2c2c2;
+  margin-top: 2.188rem;
+  padding: 0.625rem 1.875rem;
+}
+
+main > div > a:hover {
+  border: 0.125rem solid #005baa;
+  color: #005baa;
+}
+
+.left_wrap{_float:left;margin-bottom:30px;}
+.left_wrap h1{_float:left;margin-bottom:20px;}
+
+.swiper {
+  width: 100%;
+  _padding-top: 3.125rem;
+  height: 600px;
+  padding: 50px 0;
+    overflow: visible;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+}
+
+
+.swiper-button-next{right:8%;width:50px;height: 50px;background: url(../images/g_right_arrow.png);}
+.swiper-button-prev{left:8%;width:50px;height: 50px;background: url(../images/g_left_arrow.png);}
+
+.swiper-button-next:after, .swiper-button-prev:after{display:none;}
+
+
+.swiper-slide {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+    border-radius:20px;
+    text-align: center;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+  _padding: 0 0 0 1.563rem;
+  text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.swiper-slide h2 span{font-size:18px;display:block;color:#f9f9f9;font-weight: normal;}
+
+
+.swiper-slide p {
+  color: #dadada;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  _padding: 0 1.563rem;
+  line-height: 1.6;
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+    padding-top:30px;
+}
+
+.swiper-slide ul li{
+    color: #dadada;
+  font-family: "Noto sans", sans-serif;
+  font-weight: bold;
+  _padding: 0 1.563rem;
+    color:#ffffff;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+    margin: 5px 0;
+    font-size:18px;
+}
+
+.swiper-slide .color_b{background: rgba(0,0,0,0.3);}
+
+
+.swiper-slide a {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+    margin-top: 100px;
+}
+
+.swiper-slide a:hover {
+  color: #005baa;
+}
+
+.swiper-slide div {
+  display: none;
+  opacity: 0;
+  padding-bottom: 0.625rem;
+    
+}
+
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+    width: 100%;
+    height: 100%;
+    padding:30px 20px;
+}
+
+.swiper-slide--one {
+  background: url("../images/po_img1.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--two {
+  background: url("../images/d_img1.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--three {
+  background: url("../images/j_img1.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--four {
+  background: url("../images/sim_img1.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--five {
+  background:  url("../images/s_img1.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+
+.swiper-pagination-bullet-active{width: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background: #2CA5D3;
+}
+
+
+
+@media screen and (min-width: 48rem) {
+  main {
+    _display: flex;
+    align-items: center;
+  }
+
+  .bg,
+.bg2 {
+    opacity: 0.1;
+  }
+}
+@media screen and (min-width: 93.75rem) {
+  .swiper {
+    _width: 85%;
+  }
+}
+
+
+
+
+@property --p{
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+.pie {
+  --p: 20;
+    --b: 8px;
+    --c: darkred;
+    --w: 80px;
+  
+  width:var(--w);
+  aspect-ratio:1;
+  position:relative;
+  display:inline-grid;
+  margin:5px;
+  place-content:center;
+  font-size:18px;
+  font-weight:bold;
+  font-family:sans-serif;
+}
+.pie:before,
+.pie:after {
+  content:"";
+  position:absolute;
+  border-radius:50%;
+}
+.pie:before {
+  inset:0;
+  background:
+    radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+    conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+}
+.pie:after {
+  inset:calc(50% - var(--b)/2);
+  background:var(--c);
+  transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+}
+.animate {
+  animation:p 1s .5s both;
+}
+.no-round:before {
+  background-size:0 0,auto;
+}
+.no-round:after {
+  content:none;
+}
+@keyframes p {
+  from{--p:0}
+}
