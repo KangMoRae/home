@@ -1173,6 +1173,13 @@ input[type=number] {
   -moz-text-fill-color: transparent;
     
 }
+
+.mainCon00>span{text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color: #717171;}
+
+
 .con00Img{
     margin-left:100px;
     padding-top:30px;

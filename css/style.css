@@ -73,6 +73,7 @@ main > div p {
   line-height: 1.6;
     font-size:16px;
     font-family: "Noto sans", sans-serif;
+    color: #f1f1f1;
 }
 
 main a {
