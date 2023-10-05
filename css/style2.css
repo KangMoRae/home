@@ -1033,7 +1033,8 @@ input[type=number] {
 .con01Box02 ul li .icon_img p{margin-top:0;font-size:14px;}
 .con01Box02 ul li .icon_img li_{width:80px;text-align: center; float:left;_margin-right:20px;}
 .con01Box02 ul li .date{height: 60px;float:left;margin-top:0;margin-right:20px;}
-.con01Box02 ul li>div ul{margin-top:20px}
+.con01Box02 ul li>div ul{_margin-top:20px}
+.con01Box02 ul .e_box{margin-top:20px;}
 .con01Box02 ul li>div ul li{margin-bottom:10px;color:#ffffff;font-family: 'Noto Sans KR' !important;font-weight: 200;}
 .con01Box02 ul li>div ul .f_b{font-size:18px;color:#ffffff;}
 
@@ -1058,7 +1059,7 @@ input[type=number] {
   -moz-text-fill-color: transparent;
 }
 .con01Img{float:left;height:740px;margin-left:100px;text-align: center;margin-right:80px;}
-.con01Box02 ul li{margin-bottom:58px;}
+.con01Box02 ul li{margin-bottom:40px;}
 .con01Box02 ul li h4{display:inline-block;border-bottom:1px solid #5b5b5b;font-size:20px;padding-bottom:5px;}
 .con01Box02 ul li h4 span{color:#2CA5D3;font-size:24px;}
 .con01Box02 ul li p{font-size:18px;margin-top:15px;}
@@ -1066,7 +1067,7 @@ input[type=number] {
 .con01Box02 ul li .icon_img p{margin-top:0;font-size:14px;    margin-top: 10px;}
 .con01Box02 ul li .icon_img li{text-align: center; float:left;margin-right: 16px;}
 .con01Box02 ul li .date{height: 60px;float:left;margin-top:0;margin-right:20px;}
-.con01Box02 ul li>div ul{margin-top:20px}
+.con01Box02 ul li>div ul{_margin-top:20px}
 .con01Box02 ul li>div ul li{margin-bottom:10px;}
 .con01Box02 ul li>div ul .f_b{font-size:18px;}
 .top_t{text-align: center;}

@@ -185,8 +185,11 @@
 
 
 
-.text_box .visit{transition: 0.3s;}
-.text_box .visit:hover{transition: 0.3s; color:#2CA5D3;}
+.text_box .visit{padding:10px 30px; 
+background:#2CA5D3; border-radius:30px; transition: 0.3s;color:#ffffff;}
+.text_box .visit:hover{padding:10px 40px;transition: 0.3s; color:#2CA5D3;
+background: none;border:solid 1px #95d5ed;
+}
 
 
 
