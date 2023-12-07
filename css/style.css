@@ -363,4 +363,4 @@ main > div > a:hover {
 
 .modal-content img{width:100%;}
 .modal-content.no_100 img{width:auto;}
-.modal-content.no_100 .k_gold{width:auto;}
+.modal-content.no_100 .k_gold{width:100%;}
