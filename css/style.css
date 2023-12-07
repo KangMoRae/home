@@ -320,11 +320,11 @@ main > div > a:hover {
 }
 
 
-
+.btn{cursor: pointer;}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 999; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -363,3 +363,4 @@ main > div > a:hover {
 
 .modal-content img{width:100%;}
 .modal-content.no_100 img{width:auto;}
+.modal-content.no_100 .k_gold{width:auto;}
