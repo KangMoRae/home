@@ -321,6 +321,7 @@ main > div > a:hover {
 
 
 .btn{cursor: pointer;}
+.con00Img li:hover a{background: rgba(0,0,0,0.6);}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -364,3 +365,17 @@ main > div > a:hover {
 .modal-content img{width:100%;}
 .modal-content.no_100 img{width:auto;}
 .modal-content.no_100 .k_gold{width:100%;}
+
+
+
+@media screen and (max-width:768px) {
+    
+    
+    .modal-content{width:80%;padding:20px;margin: 15% auto;}
+    .modal-content img{width:100%;}
+    .modal-content.no_100 img{width:100%;}
+    .con00Img .close{font-size:30px;}
+    body{overflow-x: hidden;}
+    
+    
+}
