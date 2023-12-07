@@ -119,8 +119,8 @@ main > div > a:hover {
 }
 
 
-.swiper-button-next{right:8%;width:50px;height: 50px;background: url(../images/g_right_arrow.png);}
-.swiper-button-prev{left:8%;width:50px;height: 50px;background: url(../images/g_left_arrow.png);}
+.swiper-button-next{right:8%;width:50px;height: 50px;background: url(..images/g_right_arrow.png);}
+.swiper-button-prev{left:8%;width:50px;height: 50px;background: url(..images/g_left_arrow.png);}
 
 .swiper-button-next:after, .swiper-button-prev:after{display:none;}
 
@@ -207,23 +207,27 @@ main > div > a:hover {
 }
 
 .swiper-slide--one {
-  background: url("../images/po_img1.png") no-repeat 50% 50%/cover;
+  background: url("..images/kgold1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--two {
-  background: url("../images/d_img1.png") no-repeat 50% 50%/cover;
+  background: url("..images/d_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--three {
-  background: url("../images/j_img1.png") no-repeat 50% 50%/cover;
+  background: url("..images/j_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--four {
-  background: url("../images/sim_img1.png") no-repeat 50% 50%/cover;
+  background: url("..images/sim_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--five {
-  background:  url("../images/s_img1.png") no-repeat 50% 50%/cover;
+  background:  url("..images/serim1.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--six {
+  background:  url("..images/s_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,

@@ -183,6 +183,9 @@
   }
 }
 
+.scroll2{color:#000000;}
+.scroll2 span{border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;}
 
 
 .text_box .visit{padding:10px 30px; 
@@ -236,6 +239,32 @@ background: none;border:solid 1px #95d5ed;
 .item_text3 span{height:150px;}
 .last_box5 .type .t1{font-family:'KHNPHD', sans-serif;font-size:24px;margin-top:40px;margin-bottom:10px;font-weight: 100;color:#666666;}
 .last_box5 .type .t2{font-family:'KHNPHD', sans-serif;font-weight: 900;font-size:24px;margin-bottom:10px;}
+
+
+/*한국공인금거래소*/
+.last_box6 .color .c1:before{content:'';display:block;background:#F3F3F3;width:80px;height:80px;border-radius:50px;margin-bottom:20px;}
+.last_box6 .color .c2:before{content:'';display:block;background:#DFB239;width:80px;height:80px;border-radius:50px;margin-bottom:20px;}
+.last_box6 .color .c3:before{content:'';display:block;background:#262626;width:80px;height:80px;border-radius:50px;margin-bottom:20px;}
+.last_box6 .type .t1{font-family:'NanumSquare', sans-serif;font-size:24px;margin-top:40px;margin-bottom:10px;font-weight: 100;color:#666666;}
+.last_box6 .type .t2{font-family:'NanumSquare', sans-serif;font-weight: 300;font-size:24px;margin-bottom:10px;}
+.last_box6 .type .t3{font-family:'NanumSquare', sans-serif;font-weight: 700;font-size:24px;}
+.item_text2 .long_tt{height:200px;}
+.last_box6 .color p{margin-right:20px;}
+.k_color .visit{background:#DFB239;}
+.k_color .visit:hover{border:solid 1px #DFB239;color:#DFB239;}
+
+
+/*세림기계*/
+.last_box7 .color .c1:before{content:'';display:block;background:#E4E4E4;width:80px;height:80px;border-radius:50px;margin-bottom:20px;}
+.last_box7 .color .c2:before{content:'';display:block;background:#17A451;width:80px;height:80px;border-radius:50px;margin-bottom:20px;}
+.last_box7 .color .c3:before{content:'';display:block;background:#3052B6;width:80px;height:80px;border-radius:50px;margin-bottom:20px;}
+.last_box7 .type .t1{font-family:'KHNPHD', sans-serif;font-size:24px;margin-top:40px;margin-bottom:10px;font-weight: 100;color:#666666;}
+.last_box7 .type .t2{font-family:'KHNPHD', sans-serif;font-weight: 300;font-size:24px;margin-bottom:10px;}
+.last_box7 .type .t3{font-family:'KHNPHD', sans-serif;font-weight: 700;font-size:24px;}
+.item_text2 .text3 .long_tt{height: 230px;}
+.k_color .visit{background:#DFB239;}
+.k_color .visit:hover{border:solid 1px #DFB239;color:#DFB239;}
+
 
 
 
