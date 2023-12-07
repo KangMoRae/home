@@ -119,8 +119,8 @@ main > div > a:hover {
 }
 
 
-.swiper-button-next{right:8%;width:50px;height: 50px;background: url(..images/g_right_arrow.png);}
-.swiper-button-prev{left:8%;width:50px;height: 50px;background: url(..images/g_left_arrow.png);}
+.swiper-button-next{right:8%;width:50px;height: 50px;background: url(../images/g_right_arrow.png);}
+.swiper-button-prev{left:8%;width:50px;height: 50px;background: url(../images/g_left_arrow.png);}
 
 .swiper-button-next:after, .swiper-button-prev:after{display:none;}
 
@@ -207,27 +207,27 @@ main > div > a:hover {
 }
 
 .swiper-slide--one {
-  background: url("..images/kgold1.png") no-repeat 50% 50%/cover;
+  background: url("../images/kgold1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--two {
-  background: url("..images/d_img1.png") no-repeat 50% 50%/cover;
+  background: url("../images/d_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--three {
-  background: url("..images/j_img1.png") no-repeat 50% 50%/cover;
+  background: url("../images/j_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--four {
-  background: url("..images/sim_img1.png") no-repeat 50% 50%/cover;
+  background: url("../images/sim_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--five {
-  background:  url("..images/serim1.png") no-repeat 50% 50%/cover;
+  background:  url("../images/serim1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-slide--six {
-  background:  url("..images/s_img1.png") no-repeat 50% 50%/cover;
+  background:  url("../images/s_img1.png") no-repeat 50% 50%/cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -242,6 +242,7 @@ main > div > a:hover {
     background: #2CA5D3;
 }
 
+.swiper-slide .m_t a{margin-top:64px;}
 
 
 @media screen and (min-width: 48rem) {
@@ -317,3 +318,48 @@ main > div > a:hover {
 @keyframes p {
   from{--p:0}
 }
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 50px;
+    padding-top: 30px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 78%;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.con00Img .close{font-size:35px;font-family:'Noto Sans KR', sans-serif;}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content img{width:100%;}
+.modal-content.no_100 img{width:auto;}

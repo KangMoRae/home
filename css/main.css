@@ -268,6 +268,8 @@ background: none;border:solid 1px #95d5ed;
 
 
 
+
+
 @media screen and (max-width:768px) {
     .gnb{top:20px;right:20px;}
     .gnb li{float:left;margin:0 15px;font-size:16px;}
